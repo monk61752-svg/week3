@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
+<div class="min-h-screen flex items-center justify-center">
 <div class="ticks"></div>
 <div class="max-w-sm rounded-2xl bg-white
 p-6 shadow-lg">
